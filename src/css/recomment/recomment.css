@@ -1,0 +1,55 @@
+.body {
+    height: 100vh;
+}
+
+.recomment-container {
+    overflow: auto;
+    background-color: white;
+    width: 418px;
+    height: 80vh;
+    margin-top: 30px;
+    border-radius: 24px;
+    margin-bottom: 30px;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(186, 186, 186, 0.153);
+    height: fit-content;
+    border-radius: 24px;
+}
+
+.title-reccomend {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 30px;
+}
+
+.detailrec {
+    display: flex;
+    margin: 20px;
+    background-color: rgba(214, 238, 235, 0.397);
+    border-radius: 34px;
+}
+
+.recimg {
+    margin: 10px;
+    height: 30px;
+}
+
+.rectext {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    margin-right: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* Limit to 10 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
